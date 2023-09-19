@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PaySpace.ScriptEngine/1.0.0": {
+        "dependencies": {
+          "Esprima": "3.0.0"
+        },
+        "runtime": {
+          "PaySpace.ScriptEngine.dll": {}
+        }
+      },
+      "Esprima/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Esprima.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaySpace.ScriptEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esprima/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RU3P4QMsrpx3JdL+yiItLw+c2We91JmPr81zc5laAx5Fp3sAUlyEx02y73h3WUp2r6OZgDvhUpWVzKhuOEG47g==",
+      "path": "esprima/3.0.0",
+      "hashPath": "esprima.3.0.0.nupkg.sha512"
+    }
+  }
+}
